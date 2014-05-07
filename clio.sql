@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `alternatives` (
   `question_id` int(11) default '0',
   `value` text,
   `status` varchar(1) default '0',
-  KEY `Index 1` (`id`),
+  KEY `Index 1` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
